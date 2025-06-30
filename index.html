@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/15b9760ccd.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo.png"  class="logo">
+            <ul id="sidemenu">
+                
+            <li><a href="#header">home</a></li>
+            <li><a href="#about">about</a></li>
+            <li><a href="#services">services</a></li>
+            <li><a href="#portfolio">portfolio</a></li>
+            <li><a href="#contact">contact</a></li>
+            <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+        </ul>
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>  Web Developer </p>
+            <h1> Hi I'm <span>Kevin</span> <br> Jen from Australia</h1>
+        </div>
+    </div>
+</div>
+
+ <!-- ---------------about---------------- -->
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-1">
+                <img src="images/user.png">
+            </div>
+            <div class="col-2">
+         <h1 class="subtittle">  About Me </h1>
+         <p>lorem ipsum khhhgsx kjh tsh ahjs aksjjc jkgs ijhxs
+             kjhax erdfg kj rfhtgjs iuyf cytug iuytf hxjhxj uasukcj ihkc iuduvhc kj uidkvh
+            jajghc bhkgb dskvbj  jjsdkc dskjcx idjc h kh sc udshgcv dhc dhvb cbx dhvjbc
+             vdhujb kjh kcl jsdv  uedv iwekjdvn wehjkdvb ihvjkb dsvjb idjs dhscx duvj bh dvsh hujk wiudj
+             jihjn idhj i jhk dsjkx dsicujk odi now disj </p>
+              <div class="tab-tittles"> 
+                <p class="tab-links active-links" onclick="opentab(event,'skills')">Skills</p>
+                <p class="tab-links" onclick="opentab(event,'experience')">Experience</p>
+                <p class="tab-links" onclick="opentab(event,'education')">Education</p>
+              </div>
+              <div class="tab-contents active-tab skills">
+                <ul>
+                    <li><span>UI/UX</span><br>Designing web/app interfaces
+                    </li>
+                    <li><span>Web Development</span><br>Website Development</li>
+                    <li><span>App Development</span><br>Making Android iOs apps</li>
+                </ul>
+              </div>
+              <div class="tab-contents experience">
+                <ul>
+                    <li><span>2021-current</span><br>Ui/UX design training at ET institute
+                    </li>
+                    <li><span>2019-21</span><br>Team lead at LLC</li>
+                    <li><span>2017-19</span><br>Design Executive at coin digital ltd.</li>
+                </ul>
+              </div>
+              <div class="tab-contents education">
+                <ul>
+                    <li><span>2017</span><br>Ui/UX design training at IT institute
+                    </li>
+                    <li><span>2016</span><br>MBA from IIM Ahemdabad</li>
+                    <li><span>2014</span><br>Btech from IIT Guwahati</li>
+                </ul>
+              </div>
+             
+            </div>
+        </div>
+    </div>
+ </div>
+
+
+ <!-- --------------------------services---------------------- -->
+
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-tittle">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>hnmvskj hhbks n, jkjs nbk sjb kjf bk j bks jb kjdx</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>UI/UX Design</h2>
+                <p>hnmvskj hhbks n, jkjs nbk sjb kjf bk j bks jb kjdx</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store-ios"></i>
+                <h2>App Design</h2>
+                <p>hnmvskj hhbks n, jkjs nbk sjb kjf bk j bks jb kjdx</p>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- -------------------------portfolio-------------------------- -->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-titles">My Work</h1>
+       <div class="work-list">
+        <div class="work">
+            <img src="images/work-1.png">
+            <div class="layer">
+                <h3>Music App</h3>
+                <p>hjvk ej n jn kdvm  nmkthgkfj hjkernvm iejnrsk ierjnv huerjikbdm gyuerjds urei 
+                    jne revnj ierjvskd hrijv 
+                </p>
+                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="images/work-2.png">
+            <div class="layer">
+                <h3>Online Shoping App</h3>
+                <p>hjvk ej n jn kdvm  nmkthgkfj hjkernvm iejnrsk ierjnv huerjikbdm gyuerjds urei 
+                    jne revnj ierjvskd hrijv 
+                </p>
+                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="images/work-3.png">
+            <div class="layer">
+                <h3>Doubt Solving Website</h3>
+                <p>hjvk ej n jn kdvm  nmkthgkfj hjkernvm iejnrsk ierjnv huerjikbdm gyuerjds urei 
+                    jne revnj
+                     ierjvskd hrijv 
+                </p>
+                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+        </div>
+       </div>
+
+      <a href="#" class="btn">See More</a>
+
+    </div>
+</div>
+
+<!-- -----------------------contact---------------- -->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-tittle">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>contact@example.com</p>
+                <p><i class="fa-solid fa-phone"></i>0132478854</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="" class="btn btn2">Download CV</a>
+            </div>
+
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                       <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                       <button class="btn2" type="submit">Submit</button>
+                    </form>
+<span id="msg"></span>
+               
+            </div>
+        </div>
+    </div>
+</div>
+
+ <script src="script.js"></script>
+</body>
+</html>
